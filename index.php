@@ -2,7 +2,7 @@
     session_start();
     require_once "App/controllers/controller.php";
     require_once "App/database/Model.php";
-    require_once "App/database/helper.php";
+    require_once "App\database\helper.php";
     // require_once __DIR__ . '/helper.php';
    
     date_default_timezone_set('Asia/Ho_Chi_Minh');
